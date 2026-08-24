@@ -1,5 +1,4 @@
 FINAL LITERATURE-MINING VALIDATION SUMMARY
-========================================================================
 
 Represented benchmark papers: 33
 Represented benchmark rows: 351
@@ -17,14 +16,14 @@ Improvement after final contextual temperature correction:
   Gain:   12 rows, +3.42 percentage points
 
 ELEMENT-LEVEL AGREEMENT
-------------------------------------------------------------------------
+
 Carbon: n=298, MAE=0.0000, RMSE=0.0006, r=1.00000, R2=1.00000, within 0.02=100.00%
 Hydrogen: n=305, MAE=0.0001, RMSE=0.0009, r=1.00000, R2=1.00000, within 0.02=100.00%
 Nitrogen: n=283, MAE=0.0000, RMSE=0.0000, r=1.00000, R2=1.00000, within 0.02=100.00%
 Oxygen: n=296, MAE=0.0003, RMSE=0.0058, r=1.00000, R2=1.00000, within 0.02=99.66%
 
 REMAINING DIFFERENCE CLASSES
-------------------------------------------------------------------------
+
 TEMPERATURE_MATCH_BUT_CHNO_DISAGREES: 27 (60.00%)
 CHNO_MATCH_BUT_TEMPERATURE_MISMATCH: 6 (13.33%)
 NO_BENCHMARK_ELIGIBLE_ROWS_FOR_DOI: 6 (13.33%)
