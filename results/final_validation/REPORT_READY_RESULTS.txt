@@ -1,0 +1,37 @@
+FINAL LITERATURE-MINING VALIDATION SUMMARY
+========================================================================
+
+Represented benchmark papers: 33
+Represented benchmark rows: 351
+Benchmark-eligible extracted rows: 420
+Conservative one-to-one matches: 306
+Benchmark recovery: 87.18%
+Unmatched benchmark rows: 45
+
+Matches with all comparable CHNO values within 0.02 wt%: 305/306 (99.67%)
+Additional matches within 0.15 wt%: 1
+
+Improvement after final contextual temperature correction:
+  Before: 294/351 (83.76%)
+  Final:  306/351 (87.18%)
+  Gain:   12 rows, +3.42 percentage points
+
+ELEMENT-LEVEL AGREEMENT
+------------------------------------------------------------------------
+Carbon: n=298, MAE=0.0000, RMSE=0.0006, r=1.00000, R2=1.00000, within 0.02=100.00%
+Hydrogen: n=305, MAE=0.0001, RMSE=0.0009, r=1.00000, R2=1.00000, within 0.02=100.00%
+Nitrogen: n=283, MAE=0.0000, RMSE=0.0000, r=1.00000, R2=1.00000, within 0.02=100.00%
+Oxygen: n=296, MAE=0.0003, RMSE=0.0058, r=1.00000, R2=1.00000, within 0.02=99.66%
+
+REMAINING DIFFERENCE CLASSES
+------------------------------------------------------------------------
+TEMPERATURE_MATCH_BUT_CHNO_DISAGREES: 27 (60.00%)
+CHNO_MATCH_BUT_TEMPERATURE_MISMATCH: 6 (13.33%)
+NO_BENCHMARK_ELIGIBLE_ROWS_FOR_DOI: 6 (13.33%)
+CHNO_MATCH_BUT_TEMPERATURE_UNRESOLVED: 4 (8.89%)
+ONE_TO_ONE_COMPETITION: 2 (4.44%)
+
+Interpretation:
+Where the pipeline identifies the corresponding benchmark record, numerical CHNO extraction is extremely accurate. Remaining benchmark differences are dominated by coverage/alignment and source-versus-benchmark discrepancies rather than general numerical extraction error.
+
+The four 525 C benchmark records from 10.1016/j.jaap.2022.105616 remain unresolved because the source evidence available to the pipeline reports a 500-550 C processing interval rather than a unique 525 C temperature. No benchmark-derived value was inserted into the extraction.

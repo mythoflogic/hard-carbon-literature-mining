@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.mypy_cache/
+
+# Environments
+.venv/
+venv/
+venv_new/
+env/
+
+# Secrets / local configuration
+.env
+.env.*
+!.env.example
+
+# Raw publications
+papers_raw/
+papers_markdown/
+*.pdf
+
+# Protected/manual datasets
+data/*.xlsx
+data/*.xls
+!data/README.md
+
+# Large/intermediate pipeline outputs
+processed_chunks/
+processed_retrieval/
+processed_extraction/
+processed_tables/
+processed_tables_*/
+checkpoints/
+logs/
+batches/
+
+# Local model / embedding artifacts
+*.faiss
+*.npy
+*.npz
+*.pkl
+*.pickle
+
+# Temporary files
+*.tmp
+*.bak
+*~
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
+.spyproject/
