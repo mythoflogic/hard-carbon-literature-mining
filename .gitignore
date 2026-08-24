@@ -53,3 +53,16 @@ batches/
 .idea/
 .vscode/
 .spyproject/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python tooling/cache
+.ruff_cache/
+.cache/
+
+# Local generated outputs
+outputs/
+
+# Logs
+*.log
