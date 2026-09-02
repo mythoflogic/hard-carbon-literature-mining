@@ -1,0 +1,14 @@
+metric,count
+deterministic_rows,480
+semantic_rows,55
+range_rows,3
+final_rows,538
+unique_source_keys,538
+exact_temperature_rows,441
+temperature_not_applicable_rows,75
+temperature_range_rows,7
+temperature_not_resolved_rows,15
+complete_CHNO_rows,456
+chno_sum_gt_105_rows,7
+chno_sum_gt_120_rows,1
+temperature_process_known_rows,36

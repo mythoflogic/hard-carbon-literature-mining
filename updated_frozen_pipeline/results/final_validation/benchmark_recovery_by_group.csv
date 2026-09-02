@@ -1,0 +1,8 @@
+Group,benchmark_rows,matched_rows,recall_pct
+woody,50,44,88.0
+Woody,66,60,90.9090909090909
+Herbaceous,180,165,91.66666666666667
+Sludge/Waste,27,26,96.29629629629629
+Shell/Fruit,14,14,100.0
+Manure,9,9,100.0
+Algae,5,5,100.0

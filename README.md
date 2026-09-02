@@ -1,65 +1,27 @@
-cat > "$REPO/README.md" <<'EOF'
-# Hard-Carbon Literature-Mining Pipeline
+# Hard Carbon Literature Mining
 
-A reproducible scientific literature-mining workflow for extracting structured
-carbon-material data from research papers.
+This repository preserves two generations of the literature-mining pipeline.
 
-The pipeline combines:
+## original_pipeline
 
-- PDF/Markdown preprocessing
-- document chunking
-- semantic retrieval
-- scientific-table detection
-- multi-level header repair
-- transposed-table recovery
-- deterministic row classification
-- structural recovery
-- context-aware semantic recovery
-- provenance-aware final table assembly
-- DOI-constrained benchmark validation
-- automated comparison and scientific plotting
+The historical pipeline that was previously published at the repository root.
 
-The workflow was developed in the context of carbon materials and hard-carbon
-anodes for sodium-ion batteries, with a controlled literature benchmark used
-to evaluate extraction accuracy.
+This directory preserves the original public workflow and its associated
+validation outputs.
 
----
+## updated_frozen_pipeline
 
-## Pipeline overview
+The final validated and frozen version of the literature-mining pipeline after
+the extraction, structural-recovery, benchmark-matching, range-compatible
+validation, and final reporting corrections.
 
-```text
-Research papers
-      |
-      v
-PDF / Markdown preprocessing
-      |
-      v
-Chunking + semantic retrieval
-      |
-      v
-Candidate scientific tables
-      |
-      v
-Table normalization
-      |
-      +--> multi-level header repair
-      |
-      +--> transposed-table recovery
-      |
-      v
-Row classification
-      |
-      v
-Deterministic structural recovery
-      |
-      v
-Semantic/context recovery
-      |
-      v
-Final provenance-aware dataset
-      |
-      v
-DOI-scoped one-to-one benchmark validation
-      |
-      v
-Trend plots + parity plots + Van Krevelen analysis
+This is the pipeline version intended to serve as the validated foundation for
+processing the hard-carbon literature corpus.
+
+## Data safety
+
+The protected benchmark workbook used for validation is intentionally excluded
+from this public repository.
+
+Only pipeline code, documentation, and appropriate validation outputs are
+published.

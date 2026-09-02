@@ -1,0 +1,9 @@
+metric,value
+benchmark_rows,351.0
+strict_exact_matches_locked,323.0
+strict_exact_recall_pct,92.02279202279202
+range_rows_considered,7.0
+range_compatible_additions,4.0
+combined_compatible_matches,327.0
+remaining_unmatched_benchmark,24.0
+source_temperature_compatible_recall_pct,93.16239316239316
