@@ -12,7 +12,7 @@ and identify elemental-composition rows.
 
 ## 4. Structural recovery
 Recover sample identities, processing temperatures, and elemental values using
-deterministic structural rules while preserving source provenance.
+deterministic structural rules while preserving source.
 
 ## 5. Semantic recovery
 Use surrounding table, caption, methods, and paper context for rows that cannot
